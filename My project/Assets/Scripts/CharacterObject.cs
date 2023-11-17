@@ -1,19 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
+public class CharacterStats
+{
+    public float healthPoints;
+    public float defensePoints;
+    public float damagePoints;
+    public float criticalChance;
+    public float criticalDamage;
+    public float speed;
+
+}
 [CreateAssetMenu]
 public class CharacterObject : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string Name;
+    public CharacterStats stats;
+    public Sprite keyArt;
+    public Sprite inGameSprite;
+    
 }
