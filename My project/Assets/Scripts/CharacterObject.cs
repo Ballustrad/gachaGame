@@ -12,6 +12,9 @@ public class CharacterStats
     public float criticalChance;
     public float criticalDamage;
     public float speed;
+    public bool tier1;
+    public bool tier2;
+    public bool tier3;
 
 }
 [CreateAssetMenu]
