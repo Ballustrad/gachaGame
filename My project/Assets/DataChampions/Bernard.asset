@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaea890b6154c0f4dbd2db0919ad965f, type: 3}
   m_Name: Bernard
   m_EditorClassIdentifier: 
-  Name: Bob
+  Name: Bernard
   stats:
     healthPoints: 100
     defensePoints: 30
@@ -20,5 +20,8 @@ MonoBehaviour:
     criticalChance: 15
     criticalDamage: 100
     speed: 102
+    tier1: 0
+    tier2: 0
+    tier3: 0
   keyArt: {fileID: 0}
   inGameSprite: {fileID: 0}
