@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaea890b6154c0f4dbd2db0919ad965f, type: 3}
+  m_Name: Boubakar
+  m_EditorClassIdentifier: 
+  Name: Boubakar
+  stats:
+    healthPoints: 100
+    defensePoints: 30
+    damagePoints: 12
+    criticalChance: 15
+    criticalDamage: 100
+    speed: 102
+    tier1: 0
+    tier2: 0
+    tier3: 0
+  keyArt: {fileID: 0}
+  inGameSprite: {fileID: 0}
