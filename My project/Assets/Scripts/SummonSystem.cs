@@ -15,6 +15,9 @@ public class SummonSystem : MonoBehaviour
 
         
     }
+
+    
+
     public List<CharacterObject> tier1List = new List<CharacterObject>();
     public List<CharacterObject> tier2List = new List<CharacterObject>();
     public List<CharacterObject> tier3List = new List<CharacterObject>();
@@ -32,6 +35,11 @@ public class SummonSystem : MonoBehaviour
     public void Summon()
     {
         randomNumber = Random.Range(0, total);
+        
+        for(int i = 0; i < tierTable.Length; i++) 
+        {
+        
+        }
         foreach(var weight in tierTable)
         {
             if (randomNumber <= weight)

@@ -25,4 +25,6 @@ public class CharacterObject : ScriptableObject
     public Sprite keyArt;
     public Sprite inGameSprite;
     
+
+
 }
